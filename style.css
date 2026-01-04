@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: sans-serif;
     padding-top:8px;
     padding-bottom:8px;
 }
@@ -44,6 +45,7 @@ color: white;
     background-color:rgb(3, 3, 12);
     padding-left: 350px;
     padding-top:20px;
+    font-family: sans-serif;
 }
 
 .Download h1{
@@ -88,6 +90,7 @@ color: white;
     align-items: center;
     gap:26px;
     padding-top:80px;
+    font-family: monospace;
 }
 
 .part1 span{
@@ -115,7 +118,8 @@ color: white;
     height:500px;
     display: flex;
     justify-content: start;
-    align-items: start;   
+    align-items: start; 
+    font-family: monospace;  
 }
 
 .circle{
@@ -157,6 +161,7 @@ color: white;
     color: white;
     text-align: center;
     padding-top: 45px;
+    font-family: sans-serif;
 }
 
 .terminal{
@@ -166,6 +171,7 @@ color: white;
     font-weight: 800px;
     font-size: 64px; 
     color:rgb(3, 3, 12);
+    font-family: sans-serif;
 }
 
 .GitHub{
@@ -209,7 +215,7 @@ color: white;
 }
 
 .free{
-   
+   font-family: sans-serif;
    margin-top:70px;
    margin-left: 400px;
    margin-right: 400px;
