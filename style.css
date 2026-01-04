@@ -1,3 +1,343 @@
-p{
-    color: aqua;
+
+*{
+    margin: 0%;
+}
+
+.logo-section{
+    display: flex;
+    padding-left:30px;
+}
+
+.logo-section img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-section h4{
+    color: white;
+    margin-left:5px;
+    padding-top:12px;
+}
+
+.head{
+    background-color:rgb(3, 3, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+ 
+.options{
+    padding-right: 30px;
+    padding-top: 12px;
+}
+
+.options a{
+color: white;
+}
+
+.option{
+    padding-left:20px;
+}
+.Download{
+    background-color:rgb(3, 3, 12);
+    padding-left: 350px;
+    padding-top:20px;
+}
+
+.Download h1{
+    font-weight: 900px;
+    font-size: 75px;
+    color: white;
+}
+
+.Download h4{
+  color: grey;
+  width:400px;
+}
+
+.Download button{
+    margin-top:25px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 700px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.Download p{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.background{
+    height:126vh;
+    background-color: black;
+    background-image: url("light-glow.svg");
+    background-position: center;
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:26px;
+    padding-top:80px;
+}
+
+.part1 span{
+    color: rgb(48, 48, 232);
+    font-size: 25px;
+}
+
+.part1 p{
+  color: white;
+  font-size: 18px;
+}
+
+.part2 {
+  color: white;
+  text-align: center;
+  padding-top:8px;
+  padding-bottom: 20px;
+  text-align: center;
+} 
+
+.black-section{
+    background-color: black;
+    margin-left: 166px;
+    width: 1000px;
+    height:500px;
+    display: flex;
+    justify-content: start;
+    align-items: start;   
+}
+
+.circle{
+    background-color: rgb(70, 67, 67);
+    width: 13px;
+    height: 13px;
+    border-radius: 999px;
+    margin-top: 8px;
+    margin-left:8px;
+}
+
+.list{
+    padding-top:40px;
+    color:white; 
+}
+.issue{
+    color: green;
+}
+
+.sub{
+ color:lightslategray;
+}
+
+.list h5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.extra{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.extraa{
+    padding-top: 5px;
+}
+
+.commands{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.terminal{
+    margin-top:60px;
+    margin-bottom: 40px;
+    margin-left:60px;
+    font-weight: 800px;
+    font-size: 64px; 
+    color:rgb(3, 3, 12);
+}
+
+.GitHub{
+    display: flex;
+    height:40vh;
+}
+
+.sec-1{
+  width:40%;
+  padding-top:20px;
+  margin-left: 50px;
+}
+
+.sec-2 {
+  width:40%;
+  padding-top:20px;
+}
+
+.sec-3 {
+  width:33%;
+  padding-top:20px;
+}
+.sec-4 {
+  width:40%;
+  padding-top:20px;
+}
+
+.GitHub p{
+  color:grey;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.GitHub a{
+    color: blue;
+}
+
+.box-bg{
+    height:50vh;
+    background-image:url(square-pattern.png) ;
+}
+
+.free{
+   
+   margin-top:70px;
+   margin-left: 400px;
+   margin-right: 400px;
+   background-color: white;
+   height: 210px;
+   width:550px;
+   
+   display: flex;
+   flex-direction: column;
+}
+
+.free h1{
+  color: rgb(3, 3, 12);
+  padding-top:20px;
+  padding-left: 20px;
+}
+
+.free p {
+    color: grey;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left: 20px;
+}
+
+.free button{
+    border: none;
+    margin-left: 20px;
+    margin-right:310px;
+    font-size:15px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(3, 3, 12) ;
+}
+
+.free a{
+    color:blue;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.end{
+    display: flex;
+    height:50vh;
+}
+
+.git{
+    width:40%;
+    padding-left:25px;
+    padding-top:15px;
+    color:rgb(3, 3, 12) ;
+}
+
+.product{
+    width:20%;
+    padding-top:20px; 
+}
+
+.platform{
+    width:20%;
+    padding-top: 20px;
+     
+}
+
+.support{
+    width:20%;
+    padding-top: 20px;
+    
+}
+
+.company{
+    width:20%;
+    padding-top: 20px;
+}
+
+.end p{
+    color: grey;
+    padding-bottom: 10px;
+}
+
+
+
+.end h3{
+    padding-bottom:15px;
+}
+
+footer{
+  background-color: #F6F8FA;
+  height: 69px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content:space-between ;
+}
+
+.LINKS{
+  display: flex;
+  width:262px;
+  justify-content: space-between;
+  padding-left: 62px;
+  align-items: center;
+  height: 69px
+}
+
+.LINKS a{
+ color:#8b8787 ;
+ font-size: 13px;
+ text-decoration: none;
+}
+
+.LINKS a:hover{
+  text-decoration: underline;
+}
+
+.LINKS p{
+  color:#8b8787 ;
+ font-size: 13px;
+}
+
+.icons{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width:229px;
+ padding-right: 62px;
+}
+
+.icons  img {
+   height: 30px;
+   width:30px ;
 }
